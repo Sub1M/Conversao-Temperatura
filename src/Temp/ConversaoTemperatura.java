@@ -12,10 +12,8 @@ public class ConversaoTemperatura {
 			double fahrenheit = 86;
 			double celsius = (fahrenheit - AJUSTE) * FATOR;
 			System.out.println("O resultado é " + celsius + "˚C.");
-			
-            // Or
-			
-			fahrenheit = 86;
+
+			fahrenheit = 0;
 			celsius = (fahrenheit - AJUSTE) * FATOR;
 			System.out.println("O resultado é " + celsius + "˚C.");		
 		}
